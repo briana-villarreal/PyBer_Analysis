@@ -3,6 +3,7 @@
 ### Purpose
 PyBer is a ride-sharing app company, and its CEO aims to determine affordability for underserved neighborhoods and improve overall access to services. The CEO desires to obtain data regarding the total number of rides, the total number of drivers, the total fares, the average fare per ride, the average fare per driver, and the total fares for each week for the following city types: urban, suburban, and rural. These results will allow decision makers at PyBer to address any disparities in ride-sharing participation among different cities. 
 ## Results
+### Analyzing the Data
 Before analyzing the data, I added the Matplotlib inline command and imported matplotlib and pandas as dependencies. To read and store the file into a Pandas DataFrame in Jupyter Notebook, I initialized the following: "city_data_df = pd.read_csv(city_data_to_load)" and "ride_data_df=pd.read_csv(ride_data_to_load)". To increase efficiency, I merged the data into a single dataset using the pd.merge() operator on "city". 
 ![read csv](https://user-images.githubusercontent.com/106560739/179006948-1a1ed4da-70b8-4cbf-b2a6-acd17eb87a56.png)
 ![merge](https://user-images.githubusercontent.com/106560739/179006975-2fbbd565-fd88-40fc-ace3-63ace83228fb.png)
