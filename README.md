@@ -40,7 +40,8 @@ I then created a new DataFrame, named sum_of_fare_df, using the resample() funct
 ![df output](https://user-images.githubusercontent.com/106560739/179099513-4261f66f-ecf1-4a0d-8cd6-4756573172de.png)
 Upon creating the sum_of_fare_df, I found that suburban areas had the highest total fare amount in February and the lowest total fare amount in January. Rural areas had the highest total fare amount in April and the lowest total fare amount in January. Urban areas had the highest total fare amount in March and the lowest total fare amount in January.
 To display these findings, I created a graph using the object-oriented interface method and the df.plot() method. I used the Matplotlib “fivethirtyeight” graph style. I then annotated the y-axis and the title. 
-INSERT GRAPH ONCE DONE 
+![generate graph](https://user-images.githubusercontent.com/106560739/179127058-d6ffce97-6d31-4029-adf1-64b28d3a0d9c.png)
+![graph](https://user-images.githubusercontent.com/106560739/179127066-99c18fb0-f540-44b1-9d6a-59c3c34a95c1.png)
 Upon generating the graph, I found that 
 ## Summary
 ### Recommendations
